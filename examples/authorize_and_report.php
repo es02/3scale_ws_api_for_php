@@ -1,6 +1,5 @@
 <?php
-
-require(dirname(__FILE__) . '/../lib/ThreeScaleClient.php');
+use 3scale\ThreeScaleClient;
 
 // Put your provider key here:
 $provider_key = "aaa";
@@ -38,5 +37,5 @@ $response = $client->report(
 	  array('app_id' => $app_id_two, 'usage' => array('hits' => 1))
 	)
 );
-		  
+
 ?>

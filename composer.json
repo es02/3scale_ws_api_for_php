@@ -18,6 +18,9 @@
             "ThreeScaleClient": "lib/" ,
             "ThreeScaleResponse": "lib/" ,
             "3ScaleClient": "lib/"
+        },
+        "psr-4": {
+          "3scale\\": "lib"
         }
     }
 }
